@@ -5,5 +5,5 @@
 * Проект - верстка блоков сайта. Сверставть в соответствии с макетом не используя JavaScript.
 
 **Приглашение по ссылке ниже**
-* [Ссылка на сайт](https://alex-bon-9.github.io/divan-ru/index.html)
+* [Ссылка на сайт](https://alex-bon-9.github.io/mesto/index.html)
 
