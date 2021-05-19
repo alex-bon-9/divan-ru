@@ -1,0 +1,20 @@
+.description__list-wrap {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+.description__list-wrap_type_about {
+  padding-bottom: 104px;
+}
+.description__list-wrap_type_delivery {
+  padding-bottom: 74px;
+}
+.description__list-wrap_type_last {
+  /*min-height: 668px;*/
+  padding-bottom: 30px;
+}

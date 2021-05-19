@@ -1,0 +1,19 @@
+.footer__item {
+  min-width: 200px;
+  min-height: 200px;
+  margin-right: 10px;
+  background-color: #F0F9FF;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.footer__item:hover {
+  border: 2px solid  #C6C6C6;
+  cursor: pointer;
+}
+
+.footer__item:first-of-type {
+  margin-left: 20px;
+}
+.footer__item:last-of-type {
+  margin-right: 0;
+}

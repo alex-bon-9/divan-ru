@@ -1,0 +1,8 @@
+.footer__items {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  min-width: 1200px;
+}

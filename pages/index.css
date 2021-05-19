@@ -1,0 +1,53 @@
+@import url('../vendor/normalize.css');
+
+/*normalize*/
+
+@import url('../vendor/fonts/fonts.css');
+
+/*шрифты*/
+
+@import url('../blocks/page/page.css');
+
+/*page*/
+
+@import url('../blocks/page/__container/page__container.css');
+
+/*page__container*/
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__image-wrap/header__image-wrap.css');
+@import url('../blocks/header/__divan-image/header__divan-image.css');
+@import url('../blocks/header/__ru-image/header__ru-image.css');
+
+/*header*/
+
+
+
+/*description*/
+@import url('../blocks/description/__wrap/description__wrap.css');
+@import url('../blocks/tabs/tabs.css');
+@import url('../blocks/description/__list-wrap/description__list-wrap.css');
+@import url('../blocks/description/__title-wrap/description__title-wrap.css');
+@import url('../blocks/description/__items-wrap/description__items-wrap.css');
+@import url('../blocks/description/__title/description__title.css');
+@import url('../blocks/description/__list/description__list.css');
+@import url('../blocks/description/__gray-line/description__gray-line.css');
+@import url('../blocks/description/__block-relates/description__block-relates.css');
+@import url('../blocks/description/__items/description__items.css');
+@import url('../blocks/description/__item/description__item.css');
+
+/*footer*/
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__items/footer__items.css');
+@import url('../blocks/footer/__item/footer__item.css');
+@import url('../blocks/footer/__line-wrap/footer__line-wrap.css');
+@import url('../blocks/footer/__line/footer__line.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+
+@import url('../blocks/block/__yel/block__yel.css');
+@import url('../blocks/block/__header/block__header.css');
+@import url('../blocks/block/__main/block__main.css');
+@import url('../blocks/block/__footer/block__footer.css');
+
+

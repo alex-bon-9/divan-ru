@@ -1,0 +1,11 @@
+.description__gray-line {
+  width: 120px;
+  min-height: 10px;
+  background-color: #C6C6C6;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.description__gray-line:last-of-type {
+  margin-bottom: 0px;
+}

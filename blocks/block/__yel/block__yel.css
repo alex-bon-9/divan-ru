@@ -1,0 +1,19 @@
+.block__yel {
+  display: flex;
+  flex-direction: column;
+  min-width: 230px;
+  min-height: 50px;
+  border-radius: 2px;
+  box-shadow:  0 0 1em rgba(0,0,0,0.2);
+  position: absolute;
+  top: .5%;
+  left: 78%;
+  z-index: 3;
+  transition: .8s linear;
+}
+
+.block__yel:hover {
+  box-shadow:  0 0 1em rgba(0,0,0,0.8);
+  transition: .4s linear;
+  cursor: pointer;
+}

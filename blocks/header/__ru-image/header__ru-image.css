@@ -1,0 +1,7 @@
+.header__ru-image {
+  background-color: transparent;
+  margin: 23px 2px 2px 0;
+  width: 49px;
+  height: 24px;
+  background: url(/images/img-ru.svg) no-repeat;
+}

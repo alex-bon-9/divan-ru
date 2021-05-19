@@ -1,0 +1,15 @@
+.description__list {
+  margin: 0 10px 0 0;
+  padding: 0 0 0 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.description__list:first-of-type {
+  padding: 0 0 0 20px;
+}
+
+.description__list:last-of-type {
+  margin: 0 0 0 0;
+}

@@ -1,0 +1,63 @@
+.tabs {
+  position: relative;
+  display: flex;/* Относительное позиционирование */
+ }
+ .tab, .tab-title {
+  display: inline-block; /* Выстраиваем по горизонтали */
+ }
+
+ .tab input[type="radio"] { display: none;}
+ .tab-title {
+  background-color: #fff; /* Цвет фона */
+  min-width: 100px;
+  text-align: center;
+  padding: 15px 10px; /* Поля вокруг текста */
+  border-bottom: none; /* Снизу линию убираем */
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+  border-radius: 1px;
+ }
+ .tab-content {
+  position: absolute; /* Абсолютное позиционирование */
+  /*border: 1px solid #666; /* Параметры рамки */
+  padding: 0; /* Поля вокруг текста */
+  left: 0; /* Размещаем у левого края */
+  width: calc(100%); /* Ширина содержимого  calc(100% - 10px)*/
+  display: none; /* Прячем вкладку */
+  background-color: #EFEFEF;
+ }
+ /*.tab-content__about {
+  min-height: 716px;
+ }
+ .tab-content__delivery {
+  min-height: 690px;
+ }
+
+ .tab-content__why {
+  min-height: 500px;
+ }*/
+
+ .tab :checked + .tab-title {
+  position: relative; /* Относительное позиционирование */
+  background-color: #EFEFEF; /* Цвет фона */
+  /*top: 1px;  Сдвигаем вниз */
+  z-index: 1; /* Отображаем поверх содержимого */
+ }
+ .tab :checked ~ .tab-content {
+  display: block; /* Показываем активную вкладку */
+ }
+
+ .tab-title:hover {
+  cursor: pointer;
+ }
+ .tab-title_type_yel:hover {
+  background-color: #F2E680
+ }
+ .tab-title_type_purp:hover {
+  background-color: #CCCCFF
+ }
+ .tab-title_type_pink:hover {
+  background-color: #FFCCCC
+ }
+

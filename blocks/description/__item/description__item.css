@@ -1,0 +1,16 @@
+.description__item {
+  min-width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  background-color: #F0F9FF;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.description__item:hover {
+  border: 2px solid #F2E680;
+  cursor: pointer;
+}
+
+.description__item:first-of-type {
+  margin-left: 20px;
+}
