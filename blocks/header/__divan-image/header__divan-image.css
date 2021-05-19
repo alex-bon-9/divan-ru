@@ -3,13 +3,13 @@
   height: 43px;
   border: none;
   outline: 0;
-  background-image: url(/images/divan-logo.png);
+  background-image: url(../../../images/divan-logo.png);
   background-size: 125px 473px;
   margin: 7px 0;
 }
 .header__divan-image:hover {
   transition: 12s linear;
-  background-image: url(/images/divan-logo.png);
+  background-image: url(../../../images/divan-logo.png);
   background-size: 125px 473px;
   background-position-y: 602px;
   cursor: pointer;
